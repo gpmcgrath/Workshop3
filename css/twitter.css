@@ -9,7 +9,7 @@ body {
 input, input[type="text"] {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5px;
 }
 
@@ -18,7 +18,7 @@ input, input[type="text"] {
     border: none;
 }
 
-.navbar .navbar-right button {
+.searchbutton {
     background-color: white;
     color: black;
     width: 50px;
@@ -31,12 +31,8 @@ input, input[type="text"] {
     box-shadow: none;
 }
 
-.tw-comment .input-group input, input[type="text"] {
+.tw-comment {
     width: 485px !important;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 15px;
-    padding: 5px;
 }
 
 .tw-rt .list-inline>li>a {
