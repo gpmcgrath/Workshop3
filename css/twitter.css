@@ -13,6 +13,36 @@ input, input[type="text"] {
     padding: 5px;
 }
 
-.tw-comment {
+.navbar .navbar-left button {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .navbar-right button {
+    background-color: white;
+    color: black;
+    width: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+    outline: none;
+    box-shadow: none;
+}
+
+.tw-comment .input-group input, input[type="text"] {
     width: 485px !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.tw-rt .list-inline>li>a {
+    color: black;
+}
+
+.tw-react .list-inline>li>a {
+    color: gray;
 }
