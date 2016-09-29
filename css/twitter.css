@@ -10,5 +10,9 @@ input, input[type="text"] {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
+}
+
+.tw-comment {
+    width: 485px !important;
 }
